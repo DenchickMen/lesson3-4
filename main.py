@@ -35,4 +35,7 @@ class Auto:
         self.brand = random.choice(list(brand_list))
         self.strenght = brand_list[self.brand]['strenght']
         self.fuel = brand_list[self.brand]['fuel']
-        self.consumption = brand[self.brand]['consumption']
+        self.consumption = brand_list[self.brand]['consumption']
+brands_of_car = {"BMW": {'fuel':100, "strength":100, "consumption":6}
+                 "Lanos": {'fuel':70, "strength":60, "consumption":2}
+                "Lamborgini": {'fuel':150, "strength":130, "consumption":2}
